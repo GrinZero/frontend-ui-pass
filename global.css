@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #ededed;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}

@@ -1,0 +1,57 @@
+#root {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh;
+  place-items: center center;
+}
+.container {
+  background-color: #6500d0;
+  color: white;
+  width: 70%;
+  margin-top: -30%;
+  padding: 1rem;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-weight: 700;
+}
+input{
+  padding:4px 0;
+  border: 1px solid white;
+  width: 300px;
+  flex: 1;
+}
+button{
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding:4px 8px;
+  cursor: pointer;
+}
+.form{
+  padding: 12px 0;
+}
+
+main.container .content{
+  margin: 1rem;
+}
+
+footer.container .content{
+  margin: 1rem 0;
+  background-color: #7a00ff;
+  padding: 1rem;
+
+}
+footer.container .title{
+  font-size: 2rem;
+}
+footer.container .prompt{
+  color: #ffffffaa;
+}
+footer.container button{
+  background-color: #f9f46c;
+  color: #7a00ff;
+}

@@ -1,0 +1,35 @@
+#root {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh;
+  place-items: center center;
+}
+.container {
+  background-color: #bcd8f5;
+  width: 70%;
+  margin-top: -30%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+}
+h2 {
+  margin: 0;
+}
+.container > div {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 12px;
+}
+button {
+  border: none;
+  padding: 6px 18px;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #c7c6c9;
+}
+
+footer.container button {
+  background-color: #7fa1f7;
+  color: white;
+}

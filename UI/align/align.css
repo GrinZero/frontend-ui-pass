@@ -1,0 +1,21 @@
+#root {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 100vh;
+  place-items: center center;
+}
+.container {
+  background-color: #c2c2c2;
+  width: 70%;
+  margin-top: -30%;
+  padding-bottom: 16px;
+}
+.container > * {
+  margin-left: 16px;
+}
+h2 {
+  margin-bottom: 8px;
+}
+main.container > span {
+  margin-left: 12px;
+}
